@@ -245,18 +245,3 @@ class ComicSeeder extends Seeder
         
     }
 }
-
-
-
-// foreach ($pastas as $pasta) {
-//     $new_pasta = new Pasta();
-
-//     $new_pasta->title = $pasta['titolo'];
-//     $new_pasta->description = $pasta['descrizione'];
-//     $new_pasta->type = $pasta['tipo'];
-//     $new_pasta->image = $pasta['src'];
-//     $new_pasta->cooking_time = $pasta['cottura'];
-//     $new_pasta->weight = $pasta['peso'];
-
-//     $new_pasta->save();
-// }
