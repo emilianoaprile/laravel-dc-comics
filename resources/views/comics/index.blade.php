@@ -9,10 +9,13 @@
     <div class="container">
       <div class="row">
           @foreach ($comics as $comic)
-              <div class="col-2 p-3">
-                  <img src="{{ $comic->thumb }}" alt="" class="comic-img" width="70px">
-                  <p>{{ $comic->series }}</p>
-              </div>
+            <div class="col py-3">
+                <a href="{{ route('comics.show', $comic)}}">
+                    <img src="{{ $comic->thumb }}" alt="" class="comic-img" width="70px">
+                    <p>{{ $comic->series }}</p>
+                </a>
+            </div>
+            
           @endforeach   
       </div>
     </div>
