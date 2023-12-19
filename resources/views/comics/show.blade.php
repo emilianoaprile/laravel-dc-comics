@@ -4,7 +4,7 @@
 
 <section>
     <div class="container">
-      <h1>single comic</h1>
+      <h1>Single comic</h1>
     </div>
     <div class="container">
       <div class="row">

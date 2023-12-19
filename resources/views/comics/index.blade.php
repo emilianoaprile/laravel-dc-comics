@@ -14,10 +14,17 @@
                     <img src="{{ $comic->thumb }}" alt="" class="comic-img" width="70px">
                     <p>{{ $comic->series }}</p>
                 </a>
-                <div class="edit-delete">
+                <div class="edit">
                   <a href="{{ route('comics.edit', $comic) }}">Edit</a>
-                  <a href="#">Delete</a>
                 </div>
+
+                <form action="{{ route('comics.destroy', $comic) }}" method="GET">
+                  @csrf
+                  @method('DELETE')
+                  
+                  <input type="submit" value="Delete">
+                
+                </form>
             </div>
           @endforeach   
       </div>
