@@ -19,7 +19,22 @@
 
     <header>
 
-        HEADER
+        <div class="container py-1">
+            <div class="row">
+              <div class="col-auto me-auto">
+                Comics
+              </div>
+              <nav class="col-auto">
+                <ul class="d-flex gap-2">
+                  <li>
+                    <a href="{{ route('home') }}">Home</a>
+                  </li>
+                  <li>
+                    <a href="{{ route('comics.create') }}">New comic</a>
+                  </li>
+              </nav>
+            </div>
+        </div>
 
     </header>
 
