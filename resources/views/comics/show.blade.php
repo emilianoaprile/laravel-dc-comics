@@ -9,8 +9,10 @@
     <div class="container">
       <div class="row">
         <h2>{{ $comic->title }}</h2>
-        <p>{{ $comic->description }}</p>
-            
+        <a href="{{ route('comics.edit', $comic) }}">Edit</a>
+        <p>
+          {!! $comic->description !!}
+        </p>
       </div>
     </div>
   </section>

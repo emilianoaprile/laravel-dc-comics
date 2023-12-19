@@ -19,7 +19,6 @@
                   <a href="#">Delete</a>
                 </div>
             </div>
-            
           @endforeach   
       </div>
     </div>
