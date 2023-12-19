@@ -22,7 +22,7 @@
         <div class="container py-1">
             <div class="row">
               <div class="col-auto me-auto">
-                Comics
+                <h1>Comics</h1>
               </div>
               <nav class="col-auto">
                 <ul class="d-flex gap-2">
