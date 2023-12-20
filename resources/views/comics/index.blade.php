@@ -18,7 +18,7 @@
                   <a href="{{ route('comics.edit', $comic) }}">Edit</a>
                 </div>
 
-                <form action="{{ route('comics.destroy', $comic) }}" method="GET">
+                <form action="{{ route('comics.destroy', $comic) }}" method="POST">
                   @csrf
                   @method('DELETE')
                   
